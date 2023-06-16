@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "282392773874",
+    "project_id": "quizflix-61e2f",
+    "storage_bucket": "quizflix-61e2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282392773874:android:c35cc075757f881c72fc6b",
+        "android_client_info": {
+          "package_name": "com.example.quizflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282392773874-lddmltgf91ulh1jslg4pi3ojlqs0qrap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizflix",
+            "certificate_hash": "bad3c76bd14d0f6e4a3fe414d9917fb44b8ed49f"
+          }
+        },
+        {
+          "client_id": "282392773874-0sr848sror97dcgcdkma2t988jqcio2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2IlRGTJveat7SFUvAdqHiIZuvxuCmBUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282392773874-0sr848sror97dcgcdkma2t988jqcio2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
