@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/primary"
+    android:background="#101530"
     tools:context=".StartActivity">
     
     <ImageView
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/quiz" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
