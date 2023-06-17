@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
     //countdown timer
     private CountDownTimer countDownTimer;
 
-
-
     //current question position. By default 0 = first-question
     private int currentQuestionPosition = 0;
 

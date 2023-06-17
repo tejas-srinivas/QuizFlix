@@ -24,7 +24,7 @@ public class InstructionsDialog extends Dialog{
         final AppCompatButton continueBtn = findViewById(R.id.continueBtn);
         final TextView instructionsTV = findViewById(R.id.instructionsTV);
 
-        setInstructionPoint(instructionsTV,"1. You will get maximum 2 minutes to complete the quiz \n \n 2. You will get 1 point on every correct answer");
+        setInstructionPoint(instructionsTV,"1. You will get maximum 3 minutes to complete the quiz \n \n 2. You will get 1 point on every correct answer");
         //setInstructionPoint(instructionsTV,"2. You will get 1 point on every correct answer");
 
         continueBtn.setOnClickListener(new View.OnClickListener() {
