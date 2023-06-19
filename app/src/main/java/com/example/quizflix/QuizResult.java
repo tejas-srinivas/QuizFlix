@@ -40,8 +40,9 @@ public class QuizResult extends AppCompatActivity {
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sendIntent = new Intent();
-                sendIntent.setAction(Intent.ACTION_SEND);
+                Intent sendIntent = new Intent(Intent.ACTION_SEND);
+                sendIntent.setType("text/plain");
+                sendIntent.putExtra(Intent.EXTRA_SUBJECT, "QuizFlix");
                 sendIntent.putExtra(Intent.EXTRA_TEXT,"My score ="+scoreTV.getText());
 
                 Intent shareIntent = Intent.createChooser(sendIntent,"Share Via");
